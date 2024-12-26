@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6db8b93f1cce4df69227754c3d9c04d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c6db8b93f1cce4df69227754c3d9c04d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c6db8b93f1cce4df69227754c3d9c04d = L.map(
+                "map_c6db8b93f1cce4df69227754c3d9c04d",
+                {
+                    center: [12.5657, 104.991],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_df0e62f85736c0e906f5ca5307ad2896 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var marker_58203ba9098507b708fab84066c4d03c = L.marker(
+                [10.706, 103.244],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_15b6d435cec5d2ff55e6e0b1ea482c7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58203ba9098507b708fab84066c4d03c.setIcon(icon_15b6d435cec5d2ff55e6e0b1ea482c7a);
+        
+    
+        var popup_6d6368255cd0e76fbfb5ce6c6e41f670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b01cc77848885a06e33f77d8b626370a = $(`<div id="html_b01cc77848885a06e33f77d8b626370a" style="width: 100.0%; height: 100.0%;">Koh Rong Island</div>`)[0];
+            popup_6d6368255cd0e76fbfb5ce6c6e41f670.setContent(html_b01cc77848885a06e33f77d8b626370a);
+        
+
+        marker_58203ba9098507b708fab84066c4d03c.bindPopup(popup_6d6368255cd0e76fbfb5ce6c6e41f670)
+        ;
+
+        
+    
+    
+            var marker_8ad4a44ad3657557d3113f2e228c0190 = L.marker(
+                [10.6253, 103.5234],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_4d1ef72447ec68bc8780a2f9346bf621 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ad4a44ad3657557d3113f2e228c0190.setIcon(icon_4d1ef72447ec68bc8780a2f9346bf621);
+        
+    
+        var popup_3a0d8c6d7086da5b858da1b95c7de726 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72579051869bb5582c8acc72a35bd86c = $(`<div id="html_72579051869bb5582c8acc72a35bd86c" style="width: 100.0%; height: 100.0%;">Sihanoukville</div>`)[0];
+            popup_3a0d8c6d7086da5b858da1b95c7de726.setContent(html_72579051869bb5582c8acc72a35bd86c);
+        
+
+        marker_8ad4a44ad3657557d3113f2e228c0190.bindPopup(popup_3a0d8c6d7086da5b858da1b95c7de726)
+        ;
+
+        
+    
+    
+            var marker_e605812479a14a9d8b41222613edb78c = L.marker(
+                [10.6104, 104.1807],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_5b73577332e03b87e87ad5aa8f251b62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e605812479a14a9d8b41222613edb78c.setIcon(icon_5b73577332e03b87e87ad5aa8f251b62);
+        
+    
+        var popup_3c3eca6fdf8d2d541183c703deb0e88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0691a4508e3c243cc9246364cf0dbae1 = $(`<div id="html_0691a4508e3c243cc9246364cf0dbae1" style="width: 100.0%; height: 100.0%;">Kampot</div>`)[0];
+            popup_3c3eca6fdf8d2d541183c703deb0e88e.setContent(html_0691a4508e3c243cc9246364cf0dbae1);
+        
+
+        marker_e605812479a14a9d8b41222613edb78c.bindPopup(popup_3c3eca6fdf8d2d541183c703deb0e88e)
+        ;
+
+        
+    
+    
+            var marker_f3233aadada83cd4b6fb39a305b816f9 = L.marker(
+                [12.4504, 107.199],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_1221b8f30bd3c1ddf516bab93a8b79dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3233aadada83cd4b6fb39a305b816f9.setIcon(icon_1221b8f30bd3c1ddf516bab93a8b79dc);
+        
+    
+        var popup_716914fec9264c7b936bae7b61654227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ca52b47b7d7a3cf1ac4332dd6a05d5b = $(`<div id="html_5ca52b47b7d7a3cf1ac4332dd6a05d5b" style="width: 100.0%; height: 100.0%;">Mondulkiri</div>`)[0];
+            popup_716914fec9264c7b936bae7b61654227.setContent(html_5ca52b47b7d7a3cf1ac4332dd6a05d5b);
+        
+
+        marker_f3233aadada83cd4b6fb39a305b816f9.bindPopup(popup_716914fec9264c7b936bae7b61654227)
+        ;
+
+        
+    
+    
+            var marker_9327a9a41d59430f69d80805818f07f8 = L.marker(
+                [13.0957, 103.2022],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_45f06fae79b06ec390a909144d705f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9327a9a41d59430f69d80805818f07f8.setIcon(icon_45f06fae79b06ec390a909144d705f8a);
+        
+    
+        var popup_0330f584898af6cb4c62fcf8f8854299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45aa63b952e239580c3a48b86678d54a = $(`<div id="html_45aa63b952e239580c3a48b86678d54a" style="width: 100.0%; height: 100.0%;">Battambang</div>`)[0];
+            popup_0330f584898af6cb4c62fcf8f8854299.setContent(html_45aa63b952e239580c3a48b86678d54a);
+        
+
+        marker_9327a9a41d59430f69d80805818f07f8.bindPopup(popup_0330f584898af6cb4c62fcf8f8854299)
+        ;
+
+        
+    
+    
+            var marker_c91e5c618751760ba6b65922a1f9772e = L.marker(
+                [13.3671, 103.8448],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_91b41f252c1d62c40f21d6d3be52901f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c91e5c618751760ba6b65922a1f9772e.setIcon(icon_91b41f252c1d62c40f21d6d3be52901f);
+        
+    
+        var popup_f0343d10b6d6d71d4f443a71855d8fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1a1a8f8603f802f740d23be0306127c = $(`<div id="html_a1a1a8f8603f802f740d23be0306127c" style="width: 100.0%; height: 100.0%;">Siem Reap</div>`)[0];
+            popup_f0343d10b6d6d71d4f443a71855d8fc4.setContent(html_a1a1a8f8603f802f740d23be0306127c);
+        
+
+        marker_c91e5c618751760ba6b65922a1f9772e.bindPopup(popup_f0343d10b6d6d71d4f443a71855d8fc4)
+        ;
+
+        
+    
+    
+            var marker_46d1e5efb94c9b77f8673dd27bdce519 = L.marker(
+                [10.7769, 106.7009],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_67181f89e826fa5fe7e3132ac913afdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46d1e5efb94c9b77f8673dd27bdce519.setIcon(icon_67181f89e826fa5fe7e3132ac913afdc);
+        
+    
+        var popup_6a9f8157568b47911d6c6f0bb9cf7d51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd3afbb81322d2a291b3bc5bd9fe9782 = $(`<div id="html_cd3afbb81322d2a291b3bc5bd9fe9782" style="width: 100.0%; height: 100.0%;">Ho Chi Minh City</div>`)[0];
+            popup_6a9f8157568b47911d6c6f0bb9cf7d51.setContent(html_cd3afbb81322d2a291b3bc5bd9fe9782);
+        
+
+        marker_46d1e5efb94c9b77f8673dd27bdce519.bindPopup(popup_6a9f8157568b47911d6c6f0bb9cf7d51)
+        ;
+
+        
+    
+    
+            var marker_28d41215d3d5bad32a6cbc6719ae7b92 = L.marker(
+                [11.5667, 109.0167],
+                {}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var icon_109c6b178722e5df9baedbed4d88bd20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28d41215d3d5bad32a6cbc6719ae7b92.setIcon(icon_109c6b178722e5df9baedbed4d88bd20);
+        
+    
+        var popup_aee4b7dbb6971e1d3cdfbd9832f8e44a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_489a492bcf026ad1886343e9cf478189 = $(`<div id="html_489a492bcf026ad1886343e9cf478189" style="width: 100.0%; height: 100.0%;">Phan Rang (Mỹ Hòa)</div>`)[0];
+            popup_aee4b7dbb6971e1d3cdfbd9832f8e44a.setContent(html_489a492bcf026ad1886343e9cf478189);
+        
+
+        marker_28d41215d3d5bad32a6cbc6719ae7b92.bindPopup(popup_aee4b7dbb6971e1d3cdfbd9832f8e44a)
+        ;
+
+        
+    
+    
+            var poly_line_f750b9d20474cadcc27167c820e2e106 = L.polyline(
+                [[10.706, 103.244], [10.6253, 103.5234]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var poly_line_d48543a89778f68494549b9b1ec5aa39 = L.polyline(
+                [[10.6253, 103.5234], [10.6104, 104.1807]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var poly_line_992582189edaf4f6210f7e5d4322b321 = L.polyline(
+                [[10.6104, 104.1807], [12.4504, 107.199]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var poly_line_0a6b7e3dee0fbd03aeb4e41dd07a2b69 = L.polyline(
+                [[12.4504, 107.199], [13.0957, 103.2022]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var poly_line_836cc2b18f5429a5ff3c2dffd72da3be = L.polyline(
+                [[13.0957, 103.2022], [13.3671, 103.8448]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var poly_line_1e6fb5697fb5781edd460cbc0f30e71d = L.polyline(
+                [[13.3671, 103.8448], [10.7769, 106.7009]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+    
+            var poly_line_998afdcfaef003aba951e36e471ac15f = L.polyline(
+                [[10.7769, 106.7009], [11.5667, 109.0167]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c6db8b93f1cce4df69227754c3d9c04d);
+        
+</script>
+</html>
